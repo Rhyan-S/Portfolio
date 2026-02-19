@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Rhyan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <aside class="sidebar">
+            <div class="profile">
+                <h2>Rhyan Soares dos Santos</h2>
+                <h4>Futuro Engenheiro de Software
+                movido pela curiosidade e pela
+                busca por soluções práticas.</h4>
+            </div>
+
+            <nav class="nav-menu">
+                <button class="nav-btn active" data-target="home">
+                    <i class="fa-solid fa-house"></i> Início
+                </button>
+                <button class="nav-btn" data-target="sobre">
+                    <i class="fa-solid fa-user"></i> Sobre Mim
+                </button>
+                <button class="nav-btn" data-target="projetos">
+                    <i class="fa-solid fa-code"></i> Projetos
+                </button>
+                <button class="nav-btn" data-target="contato">
+                    <i class="fa-solid fa-envelope"></i> Contato
+                </button>
+            </nav>
+
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/rhyansoares/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Rhyan-S" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </aside>
+
+        <main class="content-area">
+            
+            <section id="home" class="view active">
+                 <div class="hero">
+                    <div class="hero-text">
+                        <h1>Olá, eu sou o Rhyan.</h1>
+                        <h2 class="typing-effect">Desenvolvedor | Professor de Robótica e tecnologia</h2>
+                        <p>Transformando café em código e ideias em realidade.</p>
+                        <br>
+                        <button class="cta-btn" onclick="document.querySelector('[data-target=\'projetos\']').click()">Ver meu trabalho</button>
+                    </div>
+        
+                    <div class="hero-img">
+                        <img src="minha-foto.jpg" alt="Foto de Rhyan">
+                     </div>
+                </div>
+            </section>
+
+            <section id="sobre" class="view">
+                <h2>Sobre Mim</h2>
+                <div class="about-container">
+                    <div class="bio">
+                        <p>
+                            Hoje atuo como Professor multidisciplinar (Robótica, Coding e Games), liderando turmas no desenvolvimento de projetos completos. Minha rotina envolve desde o planejamento pedagógico até a orientação técnica em modelagem 3D, automação, desenvolvimento de aplicativos mobile e eletrônica. Essa experiência aprimorou minha capacidade de gestão de tempo e organização, pois coordeno múltiplas frentes de aprendizado simultaneamente. Além disso, o suporte constante aos alunos desenvolveu minha liderança e habilidade de resolução de problemas, garantindo a entrega de projetos funcionais e criativos.
+                        </p>
+                    <br>
+                        <p>
+                            Estou em um movimento de transição de carreira altamente focado para o Desenvolvimento de Software ou áreas parecidas, combinando minha base técnica em Mecatrônica com a graduação em Engenharia de Software que está em andamento. Busco minha primeira oportunidade na área, trazendo uma mentalidade de solucionador de problemas e um compromisso com o desenvolvimento prático.
+                        </p>
+                    <br>
+                        <p>
+                            O que me diferencia é minha capacidade de transformar teoria em solução. Sou proativo, comprometido com resultados e possuo uma facilidade comprovada para absorver novas ferramentas e frameworks de forma autônoma, adaptando-me rapidamente às necessidades da equipe e do projeto. Minha experiência atual (em docência/gestão) também me equipou com a habilidade de simplificar a complexidade e colaborar de forma clara e organizada.
+                        </p>
+                    <br>
+                        <div class="cv-container" style="margin: 20px 0;">
+                            <a href="meu-curriculo.pdf" download class="cta-btn" style="text-decoration: none; display: inline-flex; align-items: center; gap: 10px;">
+                                <i class="fa-solid fa-file-pdf"></i> Baixar Currículo Completo
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="skills">
+                        <h3>Minha Stack Favorita</h3>                       
+                        <div class="tags">
+                            <span>Java (Spring Boot)</span>
+                            <span>Angular</span>
+                        <br>
+                        <br>
+                        <h3>Outros conhecimentos</h3>                
+                            <span>HTML/CSS/JS</span>
+                            <span>PHP</span>
+                            <span>Hibernate</span>
+                            <span>Maven</span>
+                            <span>XML</span>
+                            <span>Android Studio</span>
+                            <span>Postman/Insomnia</span>
+                            <span>Bootstrap</span>
+                            <span>Python (Flask)</span>
+                            <span>Engines (Godot, GameMaker)</span>
+                            <span>SQL & NoSQL (PostgreSQL, MySQL, Redis)</span>
+                            <span>Git/GitHub</span>
+                        </div>
+                        <div class="about-grid">
+    
+                            <div class="about-card">
+    
+                                <h3><i class="fa-solid fa-briefcase"></i> Experiência</h3>
+                                <ul class="timeline">
+                                    <li>
+                                        <span class="date">2025 - Presente</span>
+                                        <strong>Professor de Robótica & Tecnologia</strong>
+                                        <small>Robot Teen | Escola de Ciência e Tecnologia</small>
+                                    </li>
+                                </ul>
+
+                                <h3 style="margin-top: 1.5rem;"><i class="fa-solid fa-graduation-cap"></i> Formação</h3>
+                                <ul class="timeline">
+                                    <li>
+                                        <span class="date">2025 - Presente</span>
+                                        <strong>Engenharia de Software</strong>
+                                        <small>Centro Universitário Eniac</small>
+                                    </li>
+                                    <li>
+                                        <span class="date">2022 - 2024</span>
+                                        <strong>Técnico em Mecatrônica</strong>
+                                        <small>Centro Universitário Eniac</small>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="about-card">
+                                <h3><i class="fa-solid fa-earth-americas"></i> Idiomas</h3>
+                                <div class="language-item">
+                                    <span>Português (Nativo)</span>
+                                    <div class="progress-bar"><div class="fill" style="width: 100%"></div></div>
+                                </div>
+                                <div class="language-item">
+                                    <span>Inglês (Intermediário)</span>
+                                    <div class="progress-bar"><div class="fill" style="width: 45%"></div></div>
+                                </div>
+                                <br>
+                                <h3 style="margin-top: 1.5rem;"><i class="fa-solid fa-heart"></i> Hobbies</h3>
+                                <div class="hobbies-container">
+                                    <div class="hobby-tag"><i class="fa-solid fa-gamepad"></i> Game Dev</div>
+                                    <div class="hobby-tag"><i class="fa-solid fa-robot"></i> Robótica</div>
+                                    <div class="hobby-tag"><i class="fa-solid fa-dragon"></i> RPG & Fantasia</div>
+                                    <div class="hobby-tag"><i class="fa-solid fa-hand-fist"></i> Lutas</div>
+                                    <div class="hobby-tag"><i class="fa-solid fa-keyboard"></i> Programação</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projetos" class="view">
+                <h2>Meus Projetos</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="card-img" style="background: linear-gradient(to right, #333 50%, #111111 50%);"></div> <div class="card-info">
+                            <h3>API Farma Fácil (Web Service)</h3>
+                            <br>
+                            <p>Desenvolvida em Python com Flask, MySQL (via SQLAlchemy) e o front end com Bootstrap. O Impacto: Solucionou a dispersão de informações farmacêuticas, atuando como um hub que oferece Disponibilidade em Tempo Real (simulando integração de estoque) e Bula Simplificada em uma única consulta. Habilidades que coloquei em prática: Modelagem de um sistema de integração escalável (catálogo x controle de inventário) e domínio de endpoints RESTful (CRUD completo) e documentação, garantindo o correto tratamento de dados JSON e códigos de status HTTP.</p>
+                            <div class="techs"><small>Python</small> <small>Flask</small></div>
+                            <div class="links">
+                                <a href="#">GitHub (Ainda não realizei o commit)</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="card-img" style="background: linear-gradient(to right, #45bcf3 50%, #44f39c 50%);"></div>
+                        <div class="card-info">
+                            <h3>Impacta+ (Aplicativo Mobile Android Nativo)</h3>
+                            <br>
+                            <p>Aplicativo em Java Android Nativo que conecta usuários (voluntários) a ONGs.
+                            Arquitetura: Estrutura robusta utilizando Activities para navegação principal e Fragments para UI modular e fluida (otimizando recursos). Utilização de RecyclerView para gerenciamento eficiente de listas dinâmicas de ações sociais.
+                            Desafio Superado: Gerenciamento da persistência de dados via SQLite, resolvendo o desafio complexo de ciclo de vida de conexão (evitando o erro SQLiteDatabase already closed) por meio da refatoração do BancoController.</p>
+                            <div class="techs"><small>Java</small> <small>XML</small> <small>Android Studio</small></div>
+                            <div class="links">
+                                <a href="https://github.com/Rhyan-S/Impacta-Plus-App">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                     </div>
+            </section>
+
+            <section id="contato" class="view">
+                <div class="contact-container">
+        
+                    <div class="contact-info">
+                        <h2>Vamos conversar?</h2>
+                        <p>Estou sempre aberto a discutir novos projetos, ideias criativas ou oportunidades para fazer parte de alguma equipe de tecnologia.</p>
+            
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="info">
+                                <span>Meu email:</span>
+                                <a href="mailto:rhyansoares2007@gmail.com">rhyansoares2007@gmail.com</a>
+                            </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                    <div class="info">
+                        <span>LinkedIn:</span>
+                        <a href="https://www.linkedin.com/in/rhyansoares/" target="_blank">Ver perfil profissional</a>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <div class="info">
+                        <span>Localização:</span>
+                        <p>Guarulhos, São Paulo - Brasil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <form action="https://formspree.io/f/xeeleweg" method="POST" class="contact-form">
+            <h3>Envie uma mensagem</h3>
+            
+            <div class="input-group">
+                <input type="text" name="name" required placeholder=" ">
+                <label>Seu Nome</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" name="email" required placeholder=" ">
+                <label>Seu Email</label>
+            </div>
+
+            <div class="input-group">
+                <textarea name="message" rows="5" required placeholder=" "></textarea>
+                <label>Sua Mensagem</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Enviar Mensagem <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+
+    </div>
+</section>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
